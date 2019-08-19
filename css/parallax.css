@@ -1,6 +1,5 @@
 #group1 {
     z-index: 2;
-    /* slide under group 3 and 5 */
 }
 
 #group1 .parallax__layer--deep {
@@ -9,7 +8,6 @@
 
 #group2 {
     z-index: 3;
-    /* slide over group 7 */
 }
 
 #group2 .parallax__layer--base {
@@ -18,7 +16,6 @@
 
 #group3 {
     z-index: 2;
-    /* slide over group 7 */
 }
 
 #group3 .parallax__layer--back {
@@ -27,7 +24,6 @@
 
 #group4 {
     z-index: 2;
-    /* slide over group 7 */
 }
 
 #group4 .parallax__layer--back {
@@ -46,7 +42,6 @@
 
 .parallax {
     height: 500px;
-    /* fallback for older browsers */
     height: 100vh;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -57,7 +52,6 @@
 .parallax__group {
     position: relative;
     height: 500px;
-    /* fallback for older browsers */
     height: 100vh;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
@@ -104,7 +98,7 @@
     top: 0;
     left: .5em;
     z-index: 999;
-    background: rgba(0, 0, 0, .85);
+    background: rgba(0, 0, 0, .5);
     color: #fff;
     padding: .5em;
     border-radius: 0 0 5px 5px;
@@ -128,14 +122,6 @@
 
 /* demo styles
   --------------------------------------------- */
-
-body, html {
-    overflow: scroll;
-}
-
-body {
-    font: 100% / 1.5 Arial;
-}
 
 * {
     margin: 0;

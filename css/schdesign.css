@@ -1,3 +1,75 @@
 body, html {
-    background: linear-gradient(174deg, #aaa 5%, #222 20%);
+    /*background: linear-gradient(174deg, #aaa 5%, #333 18%, #222 22%);*/
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-image: url("../../resources/scratches_basecolor.png");
+    overflow: scroll;
+}
+
+h1 {
+    margin: 0;
+}
+
+.parallax__layer>*, .parallax__layer>*>* {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.movie-title {
+    top: 60%;
+}
+
+.movie-sub-title {
+    top: 66%
+}
+
+.facade-right {
+    -webkit-transform: skewY(12deg);
+    transform: skewY(12deg);
+    height: 128px;
+    width: 500px;
+    height: 20vh;
+    width: 100vw;
+    left: 0%;
+    top: 50%;
+    background: url("../../resources/scratches_basecolor.png");
+}
+
+.facade-left {
+    -webkit-transform: skewY(-12deg);
+    transform: skewY(-12deg);
+    height: 128px;
+    width: 500px;
+    height: 20vh;
+    width: 100vw;
+    left: 0%;
+    top: 50%;
+    background: url("../../resources/scratches_basecolor.png");
+}
+
+.facade-mid-right {
+    -webkit-transform: skewY(12deg);
+    transform: skewY(12deg);
+    height: 128px;
+    width: 500px;
+    height: 22vh;
+    width: 50vw;
+    left: 50%;
+    top: 40%;
+    background: url("../../resources/scratches_basecolor.png");
+}
+
+.facade-mid-left {
+    -webkit-transform: skewY(-12deg);
+    transform: skewY(-12deg);
+    height: 128px;
+    width: 500px;
+    height: 22vh;
+    width: 50vw;
+    left: 0%;
+    top: 40%;
+    background: url("../../resources/scratches_basecolor.png");
 }
